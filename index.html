@@ -736,7 +736,7 @@
       historyData.sort((a, b) => b.timestamp - a.timestamp);
       
       // Only show last 10 entries
-      const recentData = historyData.slice(0, 10);
+      const recentData = historyData.slice(0, 50);
       
       if (recentData.length === 0) {
         historyBody.innerHTML = '<tr><td colspan="5" style="text-align: center;">Belum ada data riwayat</td></tr>';
